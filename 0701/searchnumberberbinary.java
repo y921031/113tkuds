@@ -31,5 +31,6 @@ public class searchnumberberbinary {
         } else {
             System.out.println("No");
         }
+        sc.close();
     }
 }

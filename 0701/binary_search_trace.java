@@ -41,5 +41,6 @@ public class binary_search_trace {
         }
 
         System.out.println("結果：" + (found ? "已找到！" : "找不到"));
+        sc.close();
     }
 }

@@ -32,5 +32,6 @@ public class linear_search_trace {
         }
 
         System.out.println("結果：" + (found ? "找到" : "未找到"));
+        sc.close();
     }
 }
