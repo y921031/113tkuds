@@ -14,6 +14,7 @@ public class Q4_TieredElectricBill {
         for (int b : bills) System.out.println("Bill: $" + b);
         System.out.println("Total: $" + total);
         System.out.println("Average: $" + Math.round((double) total / n));
+        sc.close();
     }
     static int calc(int kWh) {
         int[] limits = {120, 210, 170, 200, 300, Integer.MAX_VALUE};

@@ -13,5 +13,6 @@ public class Q7_DailyPowerReverse {
         }
         for (int x : arr) System.out.print(x + " ");
         System.out.println();
+        sc.close();
     }
 }

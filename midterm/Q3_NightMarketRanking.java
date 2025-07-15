@@ -17,6 +17,7 @@ public class Q3_NightMarketRanking {
             scores[maxIdx] = temp;
             System.out.printf("%.1f\n", scores[i]);
         }
+        sc.close();
     }
 }
 /*

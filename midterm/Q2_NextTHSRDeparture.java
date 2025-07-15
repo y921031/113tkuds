@@ -20,6 +20,7 @@ public class Q2_NextTHSRDeparture {
         } else {
             System.out.printf("%02d:%02d\n", minutes[idx]/60, minutes[idx]%60);
         }
+        sc.close();
     }
 }
 /*

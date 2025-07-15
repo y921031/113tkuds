@@ -17,6 +17,7 @@ public class Q1_THSRStopCounter {
         } else {
             System.out.println(Math.abs(startIdx - endIdx) + 1);
         }
+        sc.close();
     }
 }
 /*

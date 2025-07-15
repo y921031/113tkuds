@@ -17,5 +17,6 @@ public class Q8_MergeTHSRPriceTable {
         for (int i = 0; i < n; i++) {
             System.out.printf("%s|%d|%d\n", station[i], prices[i][0], prices[i][1]);
         }
+        sc.close();
     }
 }

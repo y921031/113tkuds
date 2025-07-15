@@ -11,5 +11,6 @@ public class Q9_FindFiveStarStalls {
         for (int i = 0; i < n; i++) if (score[i] == 5) res.add(i);
         if (res.isEmpty()) System.out.println("None");
         else res.forEach(idx -> System.out.print(idx + " "));
+        sc.close();
     }
 }

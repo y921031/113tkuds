@@ -14,6 +14,7 @@ public class Q5_CPBLPrefixWins {
         System.out.print("PrefixSum:");
         for (int i = 0; i < k; i++) System.out.print(" " + prefix[i]);
         System.out.println();
+        sc.close();
     }
 }
 /*

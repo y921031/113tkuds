@@ -12,5 +12,6 @@ public class Q6_NightMarketMap {
             if (r >= 0 && r < 10 && c >= 0 && c < 10) map[r][c] = '*';
         }
         for (char[] row : map) System.out.println(new String(row));
+        sc.close();
     }
 }

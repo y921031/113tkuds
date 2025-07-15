@@ -8,6 +8,7 @@ public class Q10_ArrayToStringUtil {
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) arr[i] = sc.nextInt();
         System.out.println(arrayToString(arr));
+        sc.close();
     }
     static String arrayToString(int[] arr) {
         if (arr == null) return "null";
